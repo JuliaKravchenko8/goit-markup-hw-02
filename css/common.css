@@ -1,0 +1,20 @@
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-kolor: #000000;
+}
+
+body {
+    color: var(--primary-text-color);
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.logo:hover {
+    color: var(--accent-color);
+}
+
+.hero-title {
+    color: var(--title-text-color);
+}
