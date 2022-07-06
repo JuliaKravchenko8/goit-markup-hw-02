@@ -4,6 +4,8 @@
 }
 
 body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
 }
 
