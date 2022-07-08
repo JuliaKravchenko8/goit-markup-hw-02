@@ -39,13 +39,17 @@
 }
 
 .hero {
-    color: var(--hero-text-color);
-    width: 1600px;
-    left: 0px;
-    top: 80px;
     background: #2F303A;
 }
 
+.hero-title {
+    color: var(--hero-text-color);
+    font-size: 44px;
+    width: 1600px;
+    left: 0px;
+    top: 80px;
+    text-align: center;
+}
 
 .visually-hidden {
     position: absolute;
@@ -63,6 +67,17 @@
 button {
     cursor: pointer;
     font-family: 'Roboto';
+    background-color: var(--link-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--hero-text-color);
 }
 
 ul {
