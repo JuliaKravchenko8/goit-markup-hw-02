@@ -1,22 +1,12 @@
 :root {
-    --primary-text-color: rgba(0, 0, 0, 0.8);
-    --title-text-kolor: #000000;
+    --primary-text-color: #000000;
+    --secondary-text-color: #757575;
+    --link-color: #2196F3;
+    --hero-text-color: #FFFFFF;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-text-color);
 }
 
-.logo {
-    color: var(--title-text-color);
-}
-
-.logo:hover {
-    color: var(--accent-color);
-}
-
-.hero-title {
-    color: var(--title-text-color);
-}

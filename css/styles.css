@@ -1,4 +1,51 @@
 
+.link-logo {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+
+
+.logo {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.address-nav:hover, 
+.link:hover {
+    color: var(--link-color);
+}
+
+.address-nav {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.hero {
+    color: var(--hero-text-color);
+    width: 1600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+
 
 .visually-hidden {
     position: absolute;
@@ -11,4 +58,21 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background: #2F303A;
+}
+
+footer>.logo {
+    color: white;
 }
