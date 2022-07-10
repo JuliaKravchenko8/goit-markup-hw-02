@@ -26,6 +26,10 @@
     letter-spacing: 0.02em;
 }
 
+.link.current {
+    color: var(--link-color);
+}
+
 .address-nav:hover, 
 .address-nav:focus,
 .link:hover,
@@ -75,7 +79,7 @@
     overflow: hidden;
 }
 
-button {
+.hero-button {
     color: var(--white-text-color);
     cursor: pointer;
     font-family: inherit;
@@ -138,20 +142,12 @@ button {
     border-radius: 0px 0px 4px 4px;
 }
 
-
 .our-team {
     background: var(--secondary-background);
 }
 
-
-
-
 ul {
     list-style: none;
-}
-
-footer {
-    background: var(--dark-background);
 }
 
 .footer-logo {
@@ -168,4 +164,46 @@ footer {
 }
 .link-footer {
     color: var(--white-text-color);
+}
+
+.portfolio .card {
+    text-decoration: none;
+}
+
+.portfolio-button {
+    background: var(--secondary-background);
+    font-weight: 500;
+    height: 38px;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--white-text-color);
+    background-color: var(--link-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio .title {
+color: var(--primary-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.portfolio .text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
