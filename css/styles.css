@@ -191,8 +191,13 @@ ul {
     color: var(--white-text-color);
 }
 
-.portfolio .card {
+.portfolio-card {
+    background-color: var(--primary-background);
+}
+
+.card {
     text-decoration: none;
+    background: var(--secondary-background);
 }
 
 .portfolio-button {
@@ -218,11 +223,11 @@ ul {
 }
 
 .portfolio .title {
-color: var(--primary-text-color);
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .portfolio .text {
